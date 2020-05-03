@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b7ca597c-2821-432f-a7b9-e8a6f1d01894" name="Default Changelist" comment="" />
+    <list default="true" id="b7ca597c-2821-432f-a7b9-e8a6f1d01894" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Atbash Cipher.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Ciphers/META-INF/Ciphers.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Ciphers/META-INF/Ciphers.kotlin_module" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,8 +21,12 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1bLunuOrQEMrMNPIJoH3fjhkFDI" />
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$USER_HOME$/Desktop/Ciphers/src/Caesar Cipher.kt" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
@@ -36,7 +45,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Kotlin.Vigenere_CipherKt">
+  <component name="RunManager" selected="Kotlin.Atbash_CipherKt">
+    <configuration name="Atbash_CipherKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+      <module name="Ciphers" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="Atbash_CipherKt" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Caesar_CipherKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="Ciphers" />
       <option name="VM_PARAMETERS" />
@@ -99,6 +121,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.Atbash_CipherKt" />
         <item itemvalue="Kotlin.Vigenere_CipherKt" />
         <item itemvalue="Kotlin.Caesar_CipherKt" />
         <item itemvalue="Kotlin script.Caesar Cipher.kts" />
@@ -117,5 +140,18 @@
       <updated>1588423864162</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
