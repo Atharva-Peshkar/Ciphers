@@ -12,3 +12,11 @@ E[n](x)=((x+n-ASCII(A))mod(26))+ASCII(A)          * Replace 'A' with 'a'  for lo
 
 D[n](x)=((x-n-ASCII(A))mod(26))+ASCII(A)          * Replace 'A' with 'a'  for lowercase alphabets
 (Decryption Phase with shift n)
+
+2) Vigenère Cipher: D[i] denotes the offset of the i-th character of the plaintext. 
+
+Encryption: The plaintext(P) and key(K) are added modulo 26.
+E[i] = (P[i] + K[i]) mod 26
+
+Decryption:
+D[i] = (E[i] - K[i] + 26) mod 26
