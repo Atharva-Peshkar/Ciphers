@@ -7,16 +7,17 @@ A cipher is an algorithm for performing encryption or decryption—a series of w
 
 The encryption can be represented using modular arithmetic by first transforming the letters into numbers, according to the scheme, A = 0, B = 1,…, Z = 25. Encryption of a letter by a shift n can be described mathematically as.
 
-E[n](x)=((x+n-ASCII(A))mod(26))+ASCII(A)          * Replace 'A' with 'a'  for lowercase alphabets
+E<sub>n</sub>(x)=((x+n-ASCII(A))mod(26))+ASCII(A)          * Replace 'A' with 'a'  for lowercase alphabets
 (Encryption Phase with shift n)
 
-D[n](x)=((x-n-ASCII(A))mod(26))+ASCII(A)          * Replace 'A' with 'a'  for lowercase alphabets
+D<sub>n</sub>(x)=((x-n-ASCII(A))mod(26))+ASCII(A)          * Replace 'A' with 'a'  for lowercase alphabets
 (Decryption Phase with shift n)
+
 
 2) Vigenère Cipher: D[i] denotes the offset of the i-th character of the plaintext. 
 
 Encryption: The plaintext(P) and key(K) are added modulo 26.
-E[i] = (P[i] + K[i]) mod 26
+E<sub>i</sub> = (P<sub>i</sub> + K<sub>i</sub>) mod 26
 
 Decryption:
-D[i] = (E[i] - K[i] + 26) mod 26
+D<sub>i</sub> = (E<sub>i</sub> - K<sub>i</sub> + 26) mod 26
